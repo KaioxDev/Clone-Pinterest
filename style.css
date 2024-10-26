@@ -22,8 +22,10 @@ nav {
     gap: 24px;
 }
 
-nav, main {
+nav,
+main {
     padding: 12px;
+    justify-content: center;
 }
 
 main {
@@ -37,6 +39,22 @@ img {
 }
 
 ion-icon {
-    /* font-size: 24px; */
     color: white;
+    font-size: 24px;
+}
+
+footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+footer img {
+    width: 24px;
+    height: 24px;
+    object-fit: cover;
+    border-radius: 50%;
 }
